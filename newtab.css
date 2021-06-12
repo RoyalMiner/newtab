@@ -1,0 +1,57 @@
+body {
+  background-color: #0B0F21;
+  font-weight: 300;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+  color: Black;
+  text-align: center;
+  font-size: 60px;
+  text-decoration: none;
+}
+wasserfall{
+  position: fixed;
+}
+
+center {
+  margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+#landing{
+  background-image: url('https://i.studycdn.de/pavE3/CilAmABi19.jpg/raw');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#stundenplan{
+  background-image: url('https://i.studycdn.de/pavE3/hiQejoFu55.JPG/raw');
+  padding-top: 660px;
+  background-repeat: no-repeat;
+  background-size: auto;
+
+}
+button{
+  background-color: red;
+  color: white;
+  text-align:  center;
+  border-radius: 2px;
+  
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px grey;
+  border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #292929;
+  border-radius: 0px;
+}
