@@ -9,9 +9,7 @@ h1 {
   text-align: center;
   font-size: 60px;
   text-decoration: none;
-}
-wasserfall{
-  position: fixed;
+  padding-bottom: 200px
 }
 
 center {
@@ -30,15 +28,24 @@ center {
   padding-top: 660px;
   background-repeat: no-repeat;
   background-size: auto;
-
 }
 button{
   background-color: red;
   color: white;
-  text-align:  center;
-  border-radius: 2px;
-  
+  text-align: center;
+  border-radius: 10%;
+  border: none;
+  font-family: 'Nanum Gothic', sans-serif;
 }
+#Bookmarks {
+  width: 1000px;
+}
+
+#youtube {
+  width: 250px;
+  height: 250px;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
