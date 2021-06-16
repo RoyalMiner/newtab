@@ -37,25 +37,36 @@ center {
 
 div{
   height: 100%;
-  width: auto
+  width: auto;
+  padding-left: 100px;
+  padding-right: 100px
 }
 
 #youtube {
   width: 40%;
   height: 40%;
-  padding-left: 50px
 }
+
 #twitch {
-  width: 25%;
-  height: 25%;
+  width: 30%;
+  height: 30%;
   padding-left: 50px
 }
-#netlfix {
-  width: 200px;
-  height: 200px;
 
+#netlfix {
+  width: 30%;
+  height: 30%;
 }
 
+#mebis {
+  width: 30%;
+  height: 30%;
+}
+
+#twitter {
+  width: 30%;
+  height: 30%;
+}
 
 /* width */
 ::-webkit-scrollbar {
