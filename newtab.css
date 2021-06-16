@@ -28,23 +28,34 @@ center {
   padding-top: 660px;
   background-repeat: no-repeat;
   background-size: auto;
+  margin-top: 100px;
 }
-button{
-  background-color: red;
-  color: white;
-  text-align: center;
-  border-radius: 11%;
-  border: none;
-  font-family: 'Nanum Gothic', sans-serif;
-}
+
 #Bookmarks {
   width: 1000px;
 }
 
-#youtube {
-  width: 250px;
-  height: 250px;
+div{
+  height: 100%;
+  width: auto
 }
+
+#youtube {
+  width: 40%;
+  height: 40%;
+  padding-left: 50px
+}
+#twitch {
+  width: 25%;
+  height: 25%;
+  padding-left: 50px
+}
+#netlfix {
+  width: 200px;
+  height: 200px;
+
+}
+
 
 /* width */
 ::-webkit-scrollbar {
