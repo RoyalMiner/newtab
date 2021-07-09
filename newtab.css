@@ -48,6 +48,14 @@ center {
   margin-left: 50px;
 }
 
+#youtube, #Mebis {
+  margin-left: 30%;
+}
+
+#netlfix, #wapp {
+  margin-right: 30%;
+}
+
 #imgplan {
   margin-left: 661px;
 }
