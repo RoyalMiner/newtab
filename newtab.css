@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  color: Black;
+  color: White;
   text-align: center;
   font-size: 60px;
   text-decoration: none;
@@ -20,7 +20,7 @@ center {
   width: 8em
 }
 #landing{
-  background-image: url('https://i.studycdn.de/pavE3/CilAmABi19.jpg/raw');
+  background-image: url('https://gymmoosburg-my.sharepoint.com/personal/pbela_gymmoosburg-fs_de/Documents/Website%20data/pexels-pok-rie-2049422.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -38,11 +38,21 @@ center {
   width: 100vh;
 }
 
-.left {
+.oben {
   float: left;
   width: 1850px;
   text-align: center;
 }
+
+.hoverpls:hover{
+  transition: 1s;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+
+
 
 #twitch, #netlfix, #Twitter, #wapp {
   margin-left: 50px;
