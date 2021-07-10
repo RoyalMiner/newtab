@@ -20,11 +20,10 @@ center {
   width: 8em
 }
 #landing{
-  background-image: url('https://gymmoosburg-my.sharepoint.com/personal/pbela_gymmoosburg-fs_de/Documents/Website%20data/pexels-pok-rie-2049422.jpg');
+  background-image: url('https://i.ibb.co/P1078VM/pexels-pok-rie-2049422.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
+  background-size: 1920px 1080px;
+
 
 }
 #stundenplan {
