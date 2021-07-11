@@ -4,6 +4,7 @@ body {
   font-family: 'Orbitron', sans-serif;
   height: 100%;
   width:100%;
+  size: 1920px 1080px
 }
 
 h1 {
@@ -19,18 +20,23 @@ center {
   margin-right: auto;
   width: 8em
 }
+
+a {text-decoration: none;color: black;} a:hover {text-decoration: none; color: white}
+
 #landing{
   background-image: url('https://i.ibb.co/P1078VM/pexels-pok-rie-2049422.jpg');
   background-repeat: no-repeat;
   background-size: 1920px 1080px;
+  size: 1920px 1080px;
 
 
 }
 #stundenplan {
-  width: 1920px;
-  height: 1080px;
-  margin-top: 1080px;
-  background-image: url('https://www.pixel4k.com/wp-content/uploads/2019/03/dark-blur-abstract-4k_1551646029.jpg');
+  margin-top: 200px;
+  /*https://www.pixel4k.com/wp-content/uploads/2019/03/dark-blur-abstract-4k_1551646029.jpg*/
+  background-position: center;
+  background-size: 1500px 594px;
+  background-repeat: no-repeat;
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -52,9 +58,7 @@ center {
   -moz-transform: scale(1.1);
 }
 
-
-
-#twitch, #netlfix, #Twitter, #wapp {
+#twitch, #netlfix, #Twitter, #google {
   margin-left: 50px;
 }
 
@@ -62,18 +66,18 @@ center {
   margin-left: 30%;
 }
 
-#netlfix, #wapp {
+#netlfix, #google {
   margin-right: 30%;
 }
 
-
-button {
+.frz, .reli, .deu, .mat, .bio, .che, .eng, .phy, .wr, .lat, .wochentage{
   text-align: center;
   font-size: 40px;
-  border: none;
   width: 300px;
   background: none;
   border-radius: 50px;
+  border-color: white;
+  border: solid
 }
 button:hover {
   transition: 0.5s;
@@ -81,6 +85,7 @@ button:hover {
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -moz-transform: scale(1.1);
+  filter: brightness(80%);
 }
 
 table {
@@ -89,24 +94,22 @@ table {
   text-align: center;
   padding-left: 0.7px;
   padding-right:0.7px;
+  size: 1920px 1080px;
 }
-.frz {background-color: #e8d94d;color: black;}
-.reli {background-color: #4a0080;color: white;}
-.deu {background-color: red; color: white}
-.mat {background-color: #0000ff; color: white}
-.bio {background-color: #0b4f06; color: white}
-.che {background-color: lightgreen, color: white;}
-.eng {background-color: black; color: white}
-.phy {background-color: grey; color: black}
-.wr {background-color: #ff00f2; color: black;}
-.lat {background-color: orange; color: black}
+.frz {background-color: none; color: #e6e600;}
+.reli {background-color: none;color: #4a0080;}
+.deu {background-color: none; color: red}
+.mat {background-color: none; color: #0000ff}
+.bio {background-color: none; color: #0b4f06}
+.che {background-color:  none; color: lightgreen;}
+.eng {background-color: none; color: black}
+.phy {background-color: none; color: grey}
+.wr {background-color: none; color: #ff00f2;}
+.lat {background-color: none; color: orange}
 
-.wochentage{
-  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);;
-  opacity: 1.0
-}
+.wochentage{ background: linear-gradient(45deg, #00f7ff 0%, #0084ff 100%); border-color: inherit;}
 .wochentage:hover {
-  opacity: 0.5;
+  filter: brightness(80%);
   transition: none;
   transform: none;
   -webkit-transform: none;
@@ -114,9 +117,19 @@ table {
   -moz-transform: none;
 }
 .invis {
+  text-align: center;
+  font-size: 40px;
+  width: 300px;
+  background: none;
+  border-radius: 50px;
+  border-color: white;
+  border: solid;
   color: white;
 }
 
+.pfeil {color: red; text-align: center;float: left; width: 50px; height: 50px; transform: rotate(180dg);}
+.scroll:hover {transition: 0s;transform: scale(1.1)-webkit-transform: scale(1.1);-o-transform: scale(1.1);-moz-transform: scale(1.1);}
+.scroll{text-align: center;margin-left: 920px; padding-top: 700px;}
 
 
 /* width */
