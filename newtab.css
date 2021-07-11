@@ -27,14 +27,15 @@ center {
 
 }
 #stundenplan {
-  padding-top: 660px;
-  background-repeat: no-repeat;
-  background-size: auto;
-  margin-top: 150px;
+  width: 1920px;
+  height: 1080px;
+  margin-top: 1080px;
+  background-image: url('https://www.pixel4k.com/wp-content/uploads/2019/03/dark-blur-abstract-4k_1551646029.jpg');
+  font-family: 'PT Sans', sans-serif;
 }
 
 #Bookmarks {
-  width: 100vh;
+  size: 1920px 1080px
 }
 
 .oben {
@@ -65,9 +66,58 @@ center {
   margin-right: 30%;
 }
 
-#imgplan {
-  margin-left: 661px;
+
+button {
+  text-align: center;
+  font-size: 40px;
+  border: none;
+  width: 300px;
+  background: none;
+  border-radius: 50px;
 }
+button:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+
+table {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  padding-left: 0.7px;
+  padding-right:0.7px;
+}
+.frz {background-color: #e8d94d;color: black;}
+.reli {background-color: #4a0080;color: white;}
+.deu {background-color: red; color: white}
+.mat {background-color: #0000ff; color: white}
+.bio {background-color: #0b4f06; color: white}
+.che {background-color: lightgreen, color: white;}
+.eng {background-color: black; color: white}
+.phy {background-color: grey; color: black}
+.wr {background-color: #ff00f2; color: black;}
+.lat {background-color: orange; color: black}
+
+.wochentage{
+  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);;
+  opacity: 1.0
+}
+.wochentage:hover {
+  opacity: 0.5;
+  transition: none;
+  transform: none;
+  -webkit-transform: none;
+  -o-transform: none;
+  -moz-transform: none;
+}
+.invis {
+  color: white;
+}
+
+
 
 /* width */
 ::-webkit-scrollbar {
